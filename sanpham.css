@@ -1,0 +1,401 @@
+body > div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: nunito-sans, sans-serif, Helvetica, Arial;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.header {
+    height: 68px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #ffffff;
+}
+
+.content {
+    height: auto;
+    border-radius: 8px;
+    width: 1250px;
+    margin-left: 40px;
+    margin-top: 15px;
+    border: none;
+}
+
+.noidung {
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.footer {
+    height: 550px;
+    margin-top: 30px;
+    border: none;
+    margin-bottom: 10px;
+}
+.space {
+    width: 50px;
+    height: 68px;
+}
+
+#logo {
+    margin-bottom: 2px;
+    padding-left: 40px;
+}
+#search {
+    border: none;
+    width: 490px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.search_box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 5px;
+    width: 585px;
+    height: 43px;
+}
+
+#text1 a {
+    padding: 1px 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+#img1 {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+#img2 {
+    margin-left: 60px;
+    margin-top: -75px;
+}
+#ndsach {
+    margin-left: 600px;
+    margin-top: -400px;
+    font-weight: 540;
+    font-size: 22px;
+}
+#ttsach {
+    margin-left: 600px;
+    margin-top: 30px;
+    line-height: 1.3;
+    font-size: 14px;
+}
+#ttsach2 {
+    margin-top: 10px;
+}
+#ttsach3 {
+    margin-top: 10px;
+}
+#danhgia {
+    margin-top: 10px;
+}
+#tenncc {
+    color: dodgerblue;
+}
+#tacgia {
+    margin-left: 67.5px;
+}
+#tentg {
+    font-weight: bolder;
+}
+#tennxb {
+    font-weight: bolder;
+}
+#htbia {
+    margin-left: 120px;
+}
+#biamem {
+    font-weight: bolder;
+}
+#tenbo {
+    color: dodgerblue;
+}
+#danhgia {
+    margin-top: 5px;
+}
+#slgdanhgia {
+    position: relative;
+    top: -5px;
+    color: darkorange;
+}
+#giatien {
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #c92127;
+    margin-top: 20px;
+}
+#csdoitra {
+    margin-top: 30px;
+}
+#tgiandtra {
+    margin-left: 30px;
+}
+#xemthem {
+    margin-left: 10px;
+    color: dodgerblue;
+    font-weight: bolder;
+}
+#solg {
+    margin-top: 30px;
+}
+
+#sl {
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+#soluong {
+    font-weight: bolder;
+    font-size: 17px;
+    margin-right: 50px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+#tgianban {
+    background-color: #c9f0ff;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 8px;
+    width: 615px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ngaycohang {
+    color: #2489f4;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.thanhtoan {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+#chovaogiohang {
+    margin-left: 40px;
+    border: 2px solid #c92127;
+    width: 220px;
+    height: 44px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#themvaogio {
+    color: #c92127;
+    font-weight: bolder;
+}
+#dattruoc {
+    border: 2px solid #c92127;
+    margin-left: 20px;
+    width: 220px;
+    height: 44px;
+    background-color: #c92127;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Dattruoc {
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+#search-btn {
+    background-color: #c92127;
+    width: 65px;
+    height: 32px;
+    position: absolute;
+    top: 28px;
+    right: 390px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.noti {
+    width: 59px;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.noti > a {
+    text-decoration: none;
+}
+
+.noti  div {
+    font-size: 12px;
+    text-align: center;
+    color: #7a7e7f;
+}
+
+.noti  img {
+    margin-left: 18px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.lang-switch {
+    width: 70px;
+    height: 40px;
+    margin-left: 18px;
+    border: 1px solid #cdcfd0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-switch > img {
+    width: 37px;
+    height: 40px;
+}
+
+.container {
+    height: 530px;
+    padding: 0 40px 20px;
+}
+
+#lineblock {
+    height: 31px;
+    background-color: #9fa7ab;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+
+.c {
+    width: 100% - 1px;
+    height: 515px;
+    margin-top: 0px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    border: 1px solid #9fa7ab;
+}
+
+.c1 {
+    width: 390px;
+    height: 375px;
+    border-right: 1px solid #ccc;
+    margin: 35px 8px 0px 8px;
+    display: inline-block;
+}
+
+.logobottom {
+    width: 389px;
+    height: 50px;
+    padding: 10px 20px;
+}
+
+.c1text {
+    font-size: 13px;
+    margin: 0px 10px 0px 20px;
+    line-height: 1.5;
+}
+
+.bct {
+    width: 389px;
+    height: 30px;
+    margin: 0px 10px 10px 20px;
+}
+
+.c1 > a {
+    margin: 0px 0px 0px 15px;
+}
+
+.phone {
+    margin: 10px 0px 0px 20px;
+}
+
+.phone > a {
+    margin-right: 20px;
+}
+.c2 {
+    width: 790px;
+    height: 430px;
+    float: right;
+    margin: 35px 20px 0px 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.c2 > table {
+    width: 100%;
+}
+.c2 a {
+    color: black;
+    text-decoration: none;
+    line-height: 2;
+}
+
+#contact1 {
+    width: 75%;
+    margin-bottom: 5px;
+}
+
+.line1 {
+    display: grid;
+    width: 100% - 50px;
+    height: 77.5px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin-right: 16px;
+    grid-gap: 25px;
+    padding-left: 50px;
+    justify-items: center;
+}
+
+#line2 {
+    grid-template-columns: repeat(5, 1fr);
+    width: 100% - 50px;
+    padding-left: 0;
+}
+.giayphep {
+    width: 100% - 1px;
+    margin-top: 66px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    color: #adadad;
+}
+
+.noidungsp {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    height: auto;
+    padding: 10px;
+}
+
+.std {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 1200px;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+}

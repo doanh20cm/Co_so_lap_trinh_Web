@@ -1,0 +1,90 @@
+.nav1 {
+    width: 1250px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+}
+.nav1 a {
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    margin-top: 10px;
+    height: 3050px;
+    border: none;
+}
+
+.noidung {
+    background-color: #ffffff;
+    width: 100%;
+    height: 3020px;
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18.5px;
+    border-radius: 8px;
+}
+
+.noidung > strong {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.noidung > p {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: block;
+    line-height: 1.3;
+    text-indent: 50px;
+}
+
+.noidung a {
+    text-decoration: none;
+    color: red;
+}
+
+.noidung strong {
+    font-size: 21px;
+}
+
+.doitra {
+    width: 1250px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.content li {
+    list-style: none;
+    margin-left: 50px;
+}
+.csdt li {
+    margin-left: 0;
+}
+
+.vanchuyen {
+    line-height: 1.3;
+}
+
+#hotline {
+    color: red;
+}
+
+#htds {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: block;
+    line-height: 1.3;
+    color: #002060;
+    text-indent: 100px;
+    margin-top: 30px;
+}

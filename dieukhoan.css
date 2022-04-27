@@ -1,0 +1,43 @@
+#a {
+    display: block;
+    float: left;
+    font: 12px Poppins, sans-serif;
+}
+#b {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    content: "\f105";
+    font-size: 12px;
+    color: #999;
+}
+#c {
+    display: block;
+    float: left;
+    color: #f7941e;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+#dieukhoan {
+    clear: both;
+    color: #565656;
+    font: 20px Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+#text {
+    font: 13px nunito-sans, sans-serif, Helvitica;
+    line-height: 1.5;
+    color: #333333;
+    text-align: justify;
+}
+
+#container {
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    margin-right: 40px;
+    height: 650px;
+    border: none;
+}

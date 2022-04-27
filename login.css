@@ -1,0 +1,74 @@
+#dangnhap {
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 14.3px;
+    font-family: sans-serif;
+    float: left;
+    width: 201px;
+    height: 34px;
+    text-align: center;
+    color: #c92127;
+}
+#dangky {
+    margin-top: 100px;
+    font-size: 14.3px;
+    font-family: sans-serif;
+    float: left;
+    width: 201px;
+    height: 34px;
+    text-align: center;
+    margin-left: 70px;
+}
+#input {
+    clear: both;
+    margin-left: 420px;
+    margin-top: 200px;
+    font-size: 14.3px;
+    font-family: sans-serif;
+}
+#sdt {
+    margin-top: 20px;
+    width: 386px;
+    height: 38px;
+    padding: 3.75px 17.16px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+#pass {
+    margin-left: 420px;
+    margin-top: 20px;
+    font-size: 14.3px;
+    font-family: sans-serif;
+}
+#password {
+    margin-top: 20px;
+    width: 386px;
+    height: 38px;
+    padding: 3.75px 17.16px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+#quen {
+    font: 13px arial, sans-serif;
+    color: #c92127;
+    margin-left: 750px;
+    margin-top: 10px;
+}
+#btn {
+    margin-left: 520px;
+    width: 245px;
+    height: 36.42px;
+    color: #636363;
+    font: 14.3px sans-serif;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    background: #e0e0e0;
+}
+.content {
+    height: 600px;
+}
+#dangky:hover {
+    border-bottom: 2px solid red;
+}

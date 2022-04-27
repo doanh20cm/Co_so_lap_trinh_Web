@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="home.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Trang chủ</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div id="logo"><a href="home.html"><img src="img/logo.png" height="36px" alt="" /></a></div>
+            <dic class="space"></dic>
+            <span id="ïcon-menu"><img src="img/ico_menu.svg" alt="" /></span>
+            <span id="see-menu"><img src="img/icon_seemore_gray.svg" alt="" /></span>
+            <div class="search_box">
+                <form id="seach-form" action="">
+                    <input type="text" id="search" placeholder="Tìm kiếm sản phẩm mong muốn..." />
+                    <span
+                        ><button id="search-btn" type="submit"><img src="img/ico_search_white.svg" width="20px" height="20px" alt="" /></button
+                    ></span>
+                </form>
+            </div>
+            <div class="noti">
+                <img src="img/ico_noti_gray.svg" alt="" />
+                <div class="">Thông báo</div>
+            </div>
+
+            <div class="noti">
+                <a href="cart.html">
+<img src="img/ico_cart_gray.svg" alt="" />
+                <div class="">Giỏ hàng</div>
+</a>
+            </div>
+
+            <div class="noti">
+                <img src="img/ico_account_gray.svg" alt="" />
+                <div class="">Tài khoản</div>
+            </div>
+            <div class="lang-switch">
+                <span><img src="img/default.svg" width="40px" height="27px" alt="" /></span>
+                <span class=""><img src="img/icon_seemore_gray.svg" alt="" /></span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="gallery">
+                <div class="col1">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+                    <div class="tva">
+                        <img src="img/bigsale-resize_840x320.jpg" alt="st" />
+                    </div>
+
+                    <div class="tva">
+                        <img src="img/840x320_1.png" alt="nd" />
+                    </div>
+
+                    <div class="tva">
+                        <img src="img/disney-resize-840x320-t4.jpg" alt="th" />
+                    </div>
+                    <div class="tva">
+                        <a href="giamgia.html"><img src="img/SHOPEEPAY_THANG4_840_x_320.jpg" alt="rd" /></a>
+                    </div>
+                    <div class="tva">
+                        <img src="img/test_moca.jpg" alt="bruh" />
+                    </div>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    setInterval(function () {
+                        plusSlides(1);
+                    }, 4000);
+
+                    function plusSlides(n) {
+                        showSlides((slideIndex += n));
+                    }
+
+                    function currentSlide(n) {
+                        showSlides((slideIndex = n));
+                    }
+
+                    function showSlides(n) {
+                        let i;
+                        let slides = document.getElementsByClassName("tva");
+                        if (n > slides.length) {
+                            slideIndex = 1;
+                        }
+                        if (n < 1) {
+                            slideIndex = slides.length;
+                        }
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                    }
+                </script>
+                <div class="col2">
+                    <img src="img/MonthlySale_T4_bo1__392x156.jpg" alt="" />
+                    <img id="mot" src="img/392x156_manga.jpg" alt="" />
+                </div>
+            </div>
+            <div class="fourimg">
+                <div class="anh">
+                    <img src="img/MonthlySale_T4_bo2__310x210.jpg" alt="" />
+                </div>
+                <div class="anh">
+                    <img src="img/MonthlySale_T4_bo3__310x210.jpg" alt="" />
+                </div>
+                <div class="anh">
+                    <img src="img/310x210.png" alt="" />
+                </div>
+                <div class="anh">
+                    <img src="img/banner_t4_310x210_vnpay_update.png" alt="" />
+                </div>
+            </div>
+            <div class="dm" id="part1">
+                <div class="dmc">
+                    <div class=""><img src="img/Icon_FlashSale_Hot.png" alt="" /></div>
+                    <span>Flash Sale</span>
+                </div>
+                <div class="dmc">
+                    <div class=""><img src="img/Icon_MaGiamGia_Hot.png" alt="" /></div>
+                    <span>Mã Giảm Giá</span>
+                </div>
+                <div class="dmc">
+                    <div class=""><img src="img/Icon_PhienChoCu_Giam50.png" alt="" /></div>
+                    <span
+                        >Phiên Chợ <br />
+                        Sách Cũ</span
+                    >
+                </div>
+                <div class="dmc">
+                    <div class=""><img src="img/Trending_Moi.png" alt="" /></div>
+                    <span>Xu hướng</span>
+                </div>
+                <div class="dmc">
+                    <div class=""><img src="img/Icon_SanPhamMoi.png" alt="" /></div>
+                    <span>Sản phẩm mới</span>
+                </div>
+                <div class="dmc">
+                    <div class=""><img src="img/Icon_VanPhongPham_Hot.png" alt="" /></div>
+                    <span>Văn Phòng <br />Phẩm</span>
+                </div>
+                <div class="dmc">
+                    <div class=""><img src="img/Icon_GoiYChoBan.png" alt="" /></div>
+                    <span
+                        >Gợi Ý<br />
+                        Cho Bạn</span
+                    >
+                </div>
+                <div class="dmc">
+                    <div class=""><img src="img/Icon_ThieuNhi_Moi.png" alt="" /></div>
+                    <span>Thiếu Nhi</span>
+                </div>
+                <div class="dmc">
+                    <div class=""><img src="img/Icon_MangaCommic.png" alt="" /></div>
+                    <span
+                        >Manga - Comic <br />
+                        sức khoẻ</span
+                    >
+                </div>
+                <div class="dmc">
+                    <div class=""><img src="img/Icon_KinhTe.png" alt="" /></div>
+                    <span>Kinh Tế</span>
+                </div>
+            </div>
+            <div class="danhmuc">
+                <div class="tddm">
+                    <img src="img/ico_menu_red.svg" width="32px" height="32px" alt="" />
+                    <span>Danh mục sản phẩm</span>
+                </div>
+                <div class="dm">
+                    <div class="dmc">
+                        <div class=""><img src="img/van-hoc.png" alt="" /></div>
+                        <span>Văn học</span>
+                    </div>
+                    <div class="dmc">
+                        <div class=""><img src="img/thieu-nhi.png" alt="" /></div>
+                        <span>Thiếu nhi</span>
+                    </div>
+                    <div class="dmc">
+                        <div class=""><img src="img/tam-ly-ky-nang.png" alt="" /></div>
+                        <span
+                            >Tâm lý <br />
+                            kỹ năng</span
+                        >
+                    </div>
+                    <div class="dmc">
+                        <div class=""><img src="img/kinh-te.png" alt="" /></div>
+                        <span>Kinh tế</span>
+                    </div>
+                    <div class="dmc">
+                        <div class=""><img src="img/sach-giao-khoa.png" alt="" /></div>
+                        <span>Sách giáo khoa</span>
+                    </div>
+                    <div class="dmc">
+                        <div class=""><img src="img/foreign-books.png" alt="" /></div>
+                        <span>Foreign <br />Books</span>
+                    </div>
+                    <div class="dmc">
+                        <div class=""><img src="img/van-phong-pham.png" alt="" /></div>
+                        <span
+                            >Văn phòng <br />
+                            phẩm</span
+                        >
+                    </div>
+                    <div class="dmc">
+                        <div class=""><img src="img/do-choi.png" alt="" /></div>
+                        <span>Đồ chơi</span>
+                    </div>
+                    <div class="dmc">
+                        <div class=""><img src="img/lam-dep-suc-khoe.png" alt="" /></div>
+                        <span
+                            >Làm đẹp <br />
+                            sức khoẻ</span
+                        >
+                    </div>
+                    <div class="dmc">
+                        <div class=""><img src="img/bach-hoa.png" alt="" /></div>
+                        <span>Bách hoá</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div id="lineblock"></div>
+                <div class="c">
+                    <div class="c1">
+                        <div class="logobottom">
+                            <img src="img/logo.png" alt="" width="301px" height="49px" />
+                        </div>
+                        <div class="c1text">
+                            <p>
+                                Lầu 5, 387-389 Hai Bà Trưng Quận 3 TP HCM <br />
+                                Công Ty Cổ Phần Phát Hành Sách TP HCM - FAHASA <br />
+                                60 - 62 Lê Lợi, Quận 1, TP. HCM, Việt Nam
+                            </p>
+                            <p>
+                                Fahasa.com nhận đặt hàng trực tuyến và giao hàng tận nơi. <br />
+                                KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng <br />
+                                cũng như tất cả Hệ Thống Fahasa trên toàn quốc.
+                            </p>
+                        </div>
+                        <div class="bct"><img src="img/logo-bo-cong-thuong-da-thong-bao.png" width="100px" height="30px" alt="" /></div>
+                        <a href="https://facebook.com"><img src="img/Facebook-on.png" alt="" /></a>
+                        <a href="https://instagram.com"><img src="img/Insta-on.png" alt="" /></a>
+                        <a href="https://youtube.com"><img src="img/Youtube-on.png " alt="" /></a>
+                        <a href="https://tumblr.com"><img src="img/tumblr-on.png" alt="" /></a>
+                        <a href="https://pinterest.com"><img src="img/pinterest-on.png" alt="" /></a>
+                        <div class="phone">
+                            <a href="https://googleplay.com"><img src="img/android.png" width="125px" alt="" /></a>
+                            <a href="https://itunes.apple.com"><img src="img/appstore.png" width="125px" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="c2">
+                        <table>
+                            <tr>
+                                <th>
+                                    <h3>DỊCH VỤ</h3>
+                                </th>
+                                <th>
+                                    <h3>HỖ TRỢ</h3>
+                                </th>
+                                <th>
+                                    <h3>TÀI KHOẢN CỦA TÔI</h3>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td><a href="dieukhoan.html">Điều khoản sử dụng</a></td>
+                                <td><a href="doitrahoan.html">Chính sách đổi - trả - hoàn tiền</a></td>
+                                <td><a href="login.html">Đăng nhập/Tạo mới tài khoản</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Chính sách bảo mật</a></td>
+
+                                <td><a href="#">Chính sách khách sỉ</a></td>
+                                <td><a href="#">Thay đổi địa chỉ khách hàng</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Giới thiệu Fahasa</a></td>
+                                <td><a href="#">Phương thức vận chuyển</a></td>
+
+                                <td><a href="#">Chi tiết tài khoản</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Hệ thống trung tâm - nhà sách</a></td>
+                                <td><a href="#">Phương thức thanh toán và xuất HĐ</a></td>
+
+                                <td><a href="#">Lịch sử mua hàng</a></td>
+                            </tr>
+                        </table>
+                        <table id="contact1">
+                            <tr>
+                                <th>
+                                    <h3>LIÊN HỆ</h3>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="fa">&#xf041;</i>
+                                    60-62 Lê Lợi, Q.1, TP. HCM
+                                </td>
+                                <td>
+                                    <i class="fa">&#xf0e0;</i>
+                                    cskh@fahasa.com.vn
+                                </td>
+                                <td>
+                                    <i class="fa">&#xf095;</i>
+                                    1900636467
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="line1">
+                            <img src="img/vnpost.png" width="100px" alt="" />
+                            <img src="img/ahamove_logo.png" width="110px" alt="" />
+                            <img src="img/icon_giao_hang_nhanh.png" width="150px" alt="" />
+                            <img src="img/icon_snappy.png" width="150px" alt="" />
+                        </div>
+                        <div class="line1" id="line2">
+                            <img src="img/vnpay_logo.png" width="120px" alt="" />
+                            <img src="img/ZaloPay-logo-130x83.png" width="120px" alt="" />
+                            <img src="img/momopay.png" height="50px" alt="" />
+                            <img src="img/shopeepay_logo.png" height="44px" alt="" />
+                            <img src="img/logo_moca_120.jpg" height="65px" alt="" />
+                        </div>
+                    </div>
+                    <div class="giayphep">Giấy chứng nhận Đăng ký Kinh doanh số **0304132047** do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 28/11/2012.</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
